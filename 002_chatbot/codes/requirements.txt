@@ -1,2 +1,3 @@
 panel
 google-generativeai
+grpcio==1.60.1 #TO REMOVE WARNING MESSAGES WHILE RUNNING CHAT SESSION
