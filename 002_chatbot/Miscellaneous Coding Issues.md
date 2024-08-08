@@ -4,5 +4,5 @@ Here is a list of some errors that occurred during the implementation of the pro
 -  Warning Message from Gemini model when we incorporate a system instruction to the model initialization. 
 	-> The warnings disappeared when I installed the following package: `grpcio==1.60.1`
 -  VSCode Shortcuts Triggered When Typing on TextInput: When I type letter 'a' in the textinput (panel library element), Jupyter notebook creates new code cell.
-	-> 
+	-> As a temporary solution, we can I disable "Jupyter Keymap" (Search for "keymap" in extensions and disable it) or edit problematic keymappings and assign another one.
 1. 
