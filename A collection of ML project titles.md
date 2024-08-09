@@ -16,7 +16,7 @@
 - [ ] Book suggestion bot: Which book to read next? 
 	- choose from genres
 	- last read books
-- [ ] 
+- [ ] Create a chatbot for Ojus's publication page: similar to adobe pdf ai - you can ask questions about his work and AI gives answers based on his 
 
 
 
