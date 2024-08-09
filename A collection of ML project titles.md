@@ -1,7 +1,7 @@
 
 ## Completed:
 - [x] [[(ML Project) How to build a GAN Model on MNIST Dataset for generating new images of handwritten digits?]] 
-- [/] [[(ML Project) Build your own chatbot]]
+- [x] [[(ML Project) Build your own chatbot]]
 - [ ] Identifying Deep fake images (See [[(ML Project) How to build a GAN Model on MNIST Dataset for generating new images of handwritten digits?]] end part)
 - [ ] **Smart Urban Planning:** Create models to improve traffic and city development.
 	1. Can we do this for Mumbai? BUT: data collection 
@@ -16,7 +16,7 @@
 - [ ] Book suggestion bot: Which book to read next? 
 	- choose from genres
 	- last read books
-- [ ] Create a chatbot for Ojus's publication page: similar to adobe pdf ai - you can ask questions about his work and AI gives answers based on his 
+- [ ] Create a chatbot for Ojus's publication page: similar to adobe pdf ai - you can ask questions about his work and AI gives answers based on his publications - similar to ai apps where we can upload pdf and interact with it - here we all upload multiple pdfs (or fine-tune on multiple pdfs)
 
 
 
