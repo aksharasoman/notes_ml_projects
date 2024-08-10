@@ -14,6 +14,6 @@ Subfolders in each parent folder: project1, project2, project3
 IF folders at under 2 parent folders (exp1) is not that messy, let's go for it since it is simple - git.
 
 expt: case1 run for project1 (GAN)
-- [ ] do case2 for project2(chatbot)
+- [ ] do case2 for project2(chatbot): watch webpage compilation stage steps 
 	- codes folder was not accessed via obsidian. used only via vscode 
-	watch webpage compilation stage steps - 
+	
