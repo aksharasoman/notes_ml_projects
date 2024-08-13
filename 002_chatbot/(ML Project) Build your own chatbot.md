@@ -31,6 +31,7 @@ Build a chatbot for a pizzeria for taking orders using Gemini 1.5 Flash model an
 4. function to collect context 
 5. build chat interface 
 6. host it in server: [[Deploy an App built using Panel ]]
+	Pizzabot deployed:[Order bot of Pizza Paradise!](https://broken-wildflower-4698.ploomberapp.io/app)
 
 ###### Followup queries:
 1. Llama model vs gemini - performance comparison for conversational tasks
