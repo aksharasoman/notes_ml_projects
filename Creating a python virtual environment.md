@@ -13,5 +13,6 @@ pip-chill --no-chill -v > requirements.txt
 ```
 - `--no-chill` : does not include `pip-chill` itself in the output
 - `-v` : outputs the indirect dependencies as well, but commented. Therefore it is easy to keep track of them.
+- nb: pip install pip-chill
 
 Which will output a list of package specifiers as 'Requirements Files' that can re-create the exact versions of all packages installed in an environment.
