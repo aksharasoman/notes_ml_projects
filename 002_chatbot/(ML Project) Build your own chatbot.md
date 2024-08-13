@@ -18,6 +18,7 @@ It is fun to build.
 	1. [[Gemini LLM API key]] : free-tier option available
 	2. Another option: [Llama API](https://docs.llama-api.com/quickstart) free in its beta version (now: jul 2024)::  [Obtaining an API Token - Llama API](https://docs.llama-api.com/api-token) 
 3. Using [panel](https://panel.holoviz.org/index.html) python library to build chat GUI 
+4. 
 
 Egs: [barista bot](https://aistudio.google.com/app/prompts/barista-bot)
 
@@ -29,7 +30,7 @@ Build a chatbot for a pizzeria for taking orders using Gemini 1.5 Flash model an
 3. function to receive a list of prompts & pass to LLM & return response
 4. function to collect context 
 5. build chat interface 
-6. host it in server ?
+6. host it in server: [[Deploy an App built using Panel ]]
 
 ###### Followup queries:
 1. Llama model vs gemini - performance comparison for conversational tasks

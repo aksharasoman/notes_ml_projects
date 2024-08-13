@@ -82,7 +82,7 @@ watchfiles==0.23.0
 # platformdirs==4.2.2 # Installed as dependency for jupyter-core
 # prompt-toolkit==3.0.47 # Installed as dependency for ipython
 # proto-plus==1.24.0 # Installed as dependency for google-ai-generativelanguage, google-api-core
-# protobuf==4.25.4 # Installed as dependency for google-ai-generativelanguage, google-api-core, google-generativeai, googleapis-common-protos, grpcio-status, proto-plus
+protobuf==4.25.4 # Installed as dependency for google-ai-generativelanguage, google-api-core, google-generativeai, googleapis-common-protos, grpcio-status, proto-plus
 # psutil==6.0.0 # Installed as dependency for ipykernel
 # ptyprocess==0.7.0 # Installed as dependency for pexpect
 # pure-eval==0.2.3 # Installed as dependency for stack-data
