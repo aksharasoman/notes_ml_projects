@@ -8,5 +8,5 @@
 `python3 -m pip install -r requirements.txt` 
 OR 
 5. Install packages individually (pip install <>) & generate a list of required packages at the end of the project:
-`pip freeze > requirements.txt` 
+`pipreqs -f` 
 Which will output a list of package specifiers as 'Requirements Files' that can re-create the exact versions of all packages installed in an environment.
