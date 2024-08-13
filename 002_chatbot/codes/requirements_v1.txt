@@ -1,0 +1,5 @@
+panel
+google-generativeai
+grpcio==1.60.1 #TO REMOVE WARNING MESSAGES WHILE RUNNING CHAT SESSION
+nbconvert
+watchfiles #to panel serve autoreload to work
