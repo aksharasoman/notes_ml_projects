@@ -8,5 +8,10 @@
 `python3 -m pip install -r requirements.txt` 
 OR 
 5. Install packages individually (pip install <>) & generate a list of required packages at the end of the project:
-`pipreqs -f` 
+```
+pip-chill --no-chill -v > requirements.txt
+```
+- `--no-chill` : does not include `pip-chill` itself in the output
+- `-v` : outputs the indirect dependencies as well, but commented. Therefore it is easy to keep track of them.
+
 Which will output a list of package specifiers as 'Requirements Files' that can re-create the exact versions of all packages installed in an environment.
