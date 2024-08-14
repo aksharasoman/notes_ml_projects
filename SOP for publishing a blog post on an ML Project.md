@@ -1,1 +1,0 @@
-![600](images/SOP%20for%20publishing%20a%20blog%20post%20on%20an%20ML%20Project%2014Aug24_05-25.excalidraw)
