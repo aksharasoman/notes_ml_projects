@@ -2,7 +2,7 @@ Ref: [Panel — Ploomber Docs](https://docs.cloud.ploomber.io/en/latest/apps/pan
 
 - [d] *REVIEW: Not Good. "Serving traffic: Failed" is common.  Difficult to reload again. It stops the deployment if we are not receiving any traffic (in 6 hrs).* 
 
-Ploomber Cloud offers a [free deployment](https://platform.ploomber.io/) option for Panel apps.
+Ploomber Cloud offers a [free deployment](https://platform.ploomber.io/)option for Panel apps.
 ### Steps:
 1. Convert app.ipynb as app.py
 	1. Right click on app.ipynb file → Import Notebook to script → If i want to eliminate any cells : remove ‘%\%’ at the beginning of each cell.
