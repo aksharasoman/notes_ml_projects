@@ -1,0 +1,2 @@
+1. Importance of proper prompts: observed how clear and detailed system instructions change the behaviour of our chatbot. 
+2. The OpenAI model seems to perform better than the Gemini model. I was able to improve the Gemini-based chatbot’s performance to be comparable with the OpenAI-based chatbot by providing more explicit instructions. For example, initially, the bot was making errors in mathematical calculations. By explicitly telling the model to calculate the sum of the prices of all items in the order, the chatbot was able to make correct calculations.
