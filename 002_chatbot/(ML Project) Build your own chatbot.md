@@ -30,7 +30,8 @@ Build a chatbot for a pizzeria for taking orders using Gemini 1.5 Flash model an
 3. function to receive a list of prompts & pass to LLM & return response
 4. function to collect context 
 5. build chat interface 
-6. host it in server: [[Deploy an App built using Panel ]]
+6. host it in server: [[Deploy an App built using Panel using Ploomber]]
+	1. Another option: [Deploy a Python Visualization Panel App to Google Cloud Run | by Sophia Yang, Ph.D. | Towards Data Science](https://towardsdatascience.com/deploy-a-python-visualization-panel-app-to-google-cloud-ii-416e487b44eb) - didn’t  do it because of the cost involved. It can be deployed only for a limited duration of time.
 	Pizzabot deployed:[Order bot of Pizza Paradise!](https://broken-wildflower-4698.ploomberapp.io/app)
 
 ###### Followup queries:
