@@ -34,7 +34,7 @@ Build a chatbot for a pizzeria for taking orders using Gemini 1.5 Flash model an
 	1. Another option: [Deploy a Python Visualization Panel App to Google Cloud Run](https://towardsdatascience.com/deploy-a-python-visualization-panel-app-to-google-cloud-ii-416e487b44eb) - didn’t  do it because of the cost involved. It can be deployed only for a limited duration of time.
 	Pizzabot deployed:[Order bot of Pizza Paradise!](https://broken-wildflower-4698.ploomberapp.io/app)
 
-###### Followup queries:
+###### Follow-up queries:
 1. Llama model vs gemini - performance comparison for conversational tasks
 2. Any other chatbot application related to my life : book suggestion bot?? (tough)
 
