@@ -21,8 +21,13 @@ git push -u origin main
 5. Create project folder in quartofiles dir.
 ``` 
 cd ~/2.Projects/webpage_github/quartoFiles/posts
+mkdir <0xx_project-name>
+cd <0xx_project-name>
 ```
-
+6. Open vscode: `code .`
+7. Create `index.qmd` file with required yaml header (copy from another )
+8. 
+9. 
 
 
 Z.  Add blog link to Github Readme
