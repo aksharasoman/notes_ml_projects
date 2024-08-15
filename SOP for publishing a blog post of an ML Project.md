@@ -29,6 +29,22 @@ cd <0xx_project-name>
 8. Find a suitable thumbnail image, if there is not any in the project.
 9. Prepare overview content for index.qmd (see readme.md of github repo.)
 	1. Keep the obsidian notes and codes folder (vs code) of the project open.
+	2. Copy jupyter notebook (if any) to blog folder and add yaml header.
+		```
+		---
+		title: Quarto Basics
+		format:
+		 html:
+		  code-fold: true
+		jupyter: python3
+		---	
+		```
+
+		? 1. Render preview of jupyter notebook .
+		```
+		quarto render hello.ipynb --to html
+		quarto preview hello.ipynb
+		```
 
 
 Z.  Add blog link to Github Readme
