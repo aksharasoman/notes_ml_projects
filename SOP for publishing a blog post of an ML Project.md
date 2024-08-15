@@ -47,4 +47,5 @@ cd <0xx_project-name>
 		```
 
 3. Run: git-publish “commit-message” to upload the blog post.
-Z.  Add blog link to Github Readme
+4.  Add blog link to Github Readme
+5. Do final round of ‘git push’ in codes & blog folders.
