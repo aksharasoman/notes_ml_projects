@@ -40,11 +40,11 @@ cd <0xx_project-name>
 		---	
 		```
 
-		? 1. Render preview of jupyter notebook .
+	
 		```
 		quarto render hello.ipynb --to html
 		quarto preview hello.ipynb
 		```
 
-
+3. Run: git-publish “commit-message” to upload the blog post.
 Z.  Add blog link to Github Readme
