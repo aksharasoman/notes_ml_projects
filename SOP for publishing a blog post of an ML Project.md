@@ -26,8 +26,8 @@ cd <0xx_project-name>
 ```
 6. Open vscode: `code .`
 7. Create `index.qmd` file with required yaml header (copy from another )
-8. 
-9. 
+8. Find a suitable thumbnail image, if there is not any in the project.
+9. Prepare overview content for index.qmd (see readme.md of github repo.)
 
 
 Z.  Add blog link to Github Readme
