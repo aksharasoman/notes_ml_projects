@@ -18,7 +18,10 @@ git push -u origin main
 ```
 ---
 #### Create blog post:
-5. 
+5. Create project folder in quartofiles dir.
+``` 
+cd ~/2.Projects/webpage_github/quartoFiles/posts
+```
 
 
 
