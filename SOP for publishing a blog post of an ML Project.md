@@ -28,6 +28,7 @@ cd <0xx_project-name>
 7. Create `index.qmd` file with required yaml header (copy from another )
 8. Find a suitable thumbnail image, if there is not any in the project.
 9. Prepare overview content for index.qmd (see readme.md of github repo.)
+	1. Keep the obsidian notes and codes folder (vs code) of the project open.
 
 
 Z.  Add blog link to Github Readme
