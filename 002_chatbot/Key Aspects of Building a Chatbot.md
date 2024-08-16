@@ -4,12 +4,12 @@
 	- Fine-tuning: tunes a model to a particular task.
 		- For chat models: task is *Conversational*
 - **Memory**
-	- To remember turns of a conversation, we can add memory *(See LangChain course by [[Overview of deeplearning.ai Chatbot Development Courses|dl.ai]]) 
+	- To remember turns of a conversation, we can add memory *(See LangChain course by [[Master Chatbot Development with DeepLearning.AI Courses|dl.ai]]) 
 		- LLM does not have memory on its own.
 - **Production**
-	- Needs to be monitored to ensure safe and non-toxic conversations *(See lecture "Moderation" in course 3 in the list given here:*  [Overview of deeplearning.ai Chatbot Development Courses](Overview%20of%20deeplearning.ai%20Chatbot%20Development%20Courses.md) )
+	- Needs to be monitored to ensure safe and non-toxic conversations *(See lecture "Moderation" in course 3 in the list given here:*  [Master Chatbot Development with DeepLearning.AI Courses](Master%20Chatbot%20Development%20with%20DeepLearning.AI%20Courses.md) )
 
-Resource: [[Overview of deeplearning.ai Chatbot Development Courses]]
+Resource: [[Master Chatbot Development with DeepLearning.AI Courses]]
 
 ---
 ## ARTICLE WRITE-UP
@@ -34,7 +34,4 @@ When deploying a chatbot to production, it's essential to ensure that it provide
 For more details on setting up effective moderation practices, refer to the ‘Moderation’ chapter in the [Building Systems with ChatGPT](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/) course by deeplearning.ai.
 
 **To learn more** 
-You can find more details about the contents of each course in this article: [Overview of deeplearning.ai Chatbot Courses](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/).
-
-
-For more details: [[deeplearning.ai Courses on developing a chatbot]]
+You can find more details about the contents of each course here: [Master Chatbot Development with DeepLearning.AI Courses](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/).
