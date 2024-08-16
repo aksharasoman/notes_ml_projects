@@ -52,7 +52,9 @@ cd <0xx_project-name>
 
 10. Run: git-publish “commit-message” to upload the blog post.
 11. Add blog link to Github Readme
-12. Do final round of ‘git push’ in codes & blog folders.
+12. Remove temp files and images that are not required anymore from project folder,Desktop and Downloads.
+13. Do final round of ‘git push’ in codes & blog folders.
+
 
 ##### Tips
 1. The way obsidian notes are organized during the project implementation:
