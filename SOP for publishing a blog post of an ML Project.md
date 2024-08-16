@@ -1,3 +1,4 @@
+####  Deploy github repo for codes
 1. Clean up codes directory of the project
 	1. location:~/2.Projects/codes_ml_projects/<00x_project>|
 	- keep the required files only
@@ -49,3 +50,5 @@ cd <0xx_project-name>
 3. Run: git-publish “commit-message” to upload the blog post.
 4.  Add blog link to Github Readme
 5. Do final round of ‘git push’ in codes & blog folders.
+
+##### Helped 
