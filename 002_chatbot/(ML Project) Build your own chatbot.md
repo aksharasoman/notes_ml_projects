@@ -10,7 +10,7 @@ It is fun to build.
 
 ### Background
 [[Key Aspects of Building a Chatbot.md]]
-[[deeplearning.ai Courses for developing a chatbot]]
+[[Overview of deeplearning.ai Chatbot Development Courses]]
 [[Quick Guide on using Gemini for Conversational Tasks]]
 [[Miscellaneous Coding Issues]]
 [[Learnings from this project]]

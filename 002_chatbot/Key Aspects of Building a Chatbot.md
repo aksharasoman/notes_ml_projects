@@ -4,12 +4,12 @@
 	- Fine-tuning: tunes a model to a particular task.
 		- For chat models: task is *Conversational*
 - **Memory**
-	- To remember turns of a conversation, we can add memory *(See LangChain course by [[deeplearning.ai Courses for developing a chatbot|dl.ai]]) 
+	- To remember turns of a conversation, we can add memory *(See LangChain course by [[Overview of deeplearning.ai Chatbot Development Courses|dl.ai]]) 
 		- LLM does not have memory on its own.
 - **Production**
-	- Needs to be monitored to ensure safe and non-toxic conversations *(See lecture "Moderation" in course 3 in the list given here:*  [deeplearning.ai Courses for developing a chatbot](deeplearning.ai%20Courses%20for%20developing%20a%20chatbot.md) )
+	- Needs to be monitored to ensure safe and non-toxic conversations *(See lecture "Moderation" in course 3 in the list given here:*  [Overview of deeplearning.ai Chatbot Development Courses](Overview%20of%20deeplearning.ai%20Chatbot%20Development%20Courses.md) )
 
-Resource: [[deeplearning.ai Courses for developing a chatbot]]
+Resource: [[Overview of deeplearning.ai Chatbot Development Courses]]
 
 ---
 ## ARTICLE WRITE-UP
