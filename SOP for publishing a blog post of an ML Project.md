@@ -26,7 +26,7 @@ mkdir <0xx_project-name>
 cd <0xx_project-name>
 ```
 6. Open vscode: `code .`
-7. Create `index.qmd` file with required yaml header (copy from another )
+7. Create `index.qmd` file with required yaml header (copy from a published index file)
 8. Find a suitable thumbnail image, if there is not any in the project.
 9. Prepare overview content for index.qmd (see readme.md of github repo.)
 	1. Keep the obsidian notes and codes folder (vs code) of the project open.
@@ -40,15 +40,21 @@ cd <0xx_project-name>
 		jupyter: python3
 		---	
 		```
+	3. Main sections in index.qmd (article main page )
+		1. Introduction ← github repo readme
+		2. Major implementation aspects
+		3. Problem Statement/Objective
+		4. Tasks
+		5. Code (provide github repo link)
+		6. Results (snapshot)
+		7. Key takeaways
+		8. Challenges Encountered
 
-	
-		```
-		quarto render hello.ipynb --to html
-		quarto preview hello.ipynb
-		```
+10. Run: git-publish “commit-message” to upload the blog post.
+11. Add blog link to Github Readme
+12. Do final round of ‘git push’ in codes & blog folders.
 
-3. Run: git-publish “commit-message” to upload the blog post.
-4.  Add blog link to Github Readme
-5. Do final round of ‘git push’ in codes & blog folders.
+##### Tips
+1. The way obsidian notes are organized during the project implementation:
+	1. *A home file* that contains links to all other notes within the folder. → It becomes easier to have an overview of all aspects of this project in one place, eliminating the need to go through each file in the folder while preparing the article.  Eg: [[(ML Project) Build your own chatbot]]
 
-##### Helped 
