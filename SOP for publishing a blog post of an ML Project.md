@@ -31,6 +31,7 @@ cd <0xx_project-name>
 9. Prepare overview content for index.qmd (see readme.md of github repo.)
 	1. Keep the obsidian notes and codes folder (vs code) of the project open.
 	2. Copy jupyter notebook (if any) to blog folder and add yaml header.
+
 		```
 		---
 		title: Quarto Basics
@@ -49,12 +50,13 @@ cd <0xx_project-name>
 		6. Results (snapshot)
 		7. Key takeaways
 		8. Challenges Encountered
-
 10. Run: git-publish “commit-message” to upload the blog post.
 11. Add blog link to Github Readme
 12. Remove temp files and images that are not required anymore from project folder,Desktop and Downloads.
 13. Do final round of ‘git push’ in codes & blog folders.
 
+> [!caution] File-naming 
+> To include any qmd file other than index.qmd to the listing page, start the file name with in_ eg: ‘in_concepts.qmd’
 
 ##### Tips
 1. The way obsidian notes are organized during the project implementation:
