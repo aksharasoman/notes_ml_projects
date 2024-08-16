@@ -33,5 +33,8 @@ When deploying a chatbot to production, it's essential to ensure that it provide
 
 For more details on setting up effective moderation practices, refer to the ‘Moderation’ chapter in the [Building Systems with ChatGPT](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/) course by deeplearning.ai.
 
+**To learn more** 
+You can find more details about the contents of each course in this article: [Overview of deeplearning.ai Chatbot Courses](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/).
+
 
 For more details: [[deeplearning.ai Courses on developing a chatbot]]
