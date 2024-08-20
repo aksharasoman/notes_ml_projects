@@ -50,15 +50,17 @@ cd <0xx_project-name>
 		6. Results (snapshot)
 		7. Key takeaways
 		8. Challenges Encountered
-10. Run: git-publish “commit-message” to upload the blog post.
-11. Add blog link to Github Readme
-12. Remove temp files and images that are not required anymore from project folder,Desktop and Downloads.
-13. Do final round of ‘git push’ in codes & blog folders.
+		9. Skills Acquired (display in an eye-catching way: create using canva etc.)
+1. Run: git-publish “commit-message” to upload the blog post.
+2. Add blog link to Github Readme
+3. Remove temp files and images that are not required anymore from project folder,Desktop and Downloads.
+4. Do final round of ‘git push’ in codes & blog folders.
 
 > [!caution] File-naming 
 > To include any qmd file other than index.qmd to the listing page, start the file name with in_ eg: ‘in_concepts.qmd’
 
 ##### Tips
-1. The way obsidian notes are organized during the project implementation:
+1. The way obsidian notes are organized during the project implementation: 
 	1. *A home file* that contains links to all other notes within the folder. → It becomes easier to have an overview of all aspects of this project in one place, eliminating the need to go through each file in the folder while preparing the article.  Eg: [[(ML Project) Build your own chatbot]]
+	2. [[Folder Structure for ML Project]]
 
