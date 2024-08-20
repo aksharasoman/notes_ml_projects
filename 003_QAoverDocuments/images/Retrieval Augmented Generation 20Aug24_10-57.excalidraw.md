@@ -14,7 +14,7 @@ Phase 1 ^HxnB7A2K
 Phase 2 ^PbrHIHAl
 
 ## Embedded Files
-6b3e7b4ffcb80e2ef98d4263e2fa4d526ebbc071: [[images/Pasted Image 20240820225744_898.png]]
+6b3e7b4ffcb80e2ef98d4263e2fa4d526ebbc071: [[../../Pasted Image 20240820225744_898.png]]
 
 %%
 ## Drawing
