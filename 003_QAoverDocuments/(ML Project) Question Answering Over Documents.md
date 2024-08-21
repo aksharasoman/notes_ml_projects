@@ -10,9 +10,9 @@
 Build a chatbot to chat with your publications(pdf documents) - deploy it in ojus’s or my website(?) 
 
 ### Course of Action 
-1. Do the course to understand RAG pipeline
-2. Adapt the pipeline for our application (note down necessary changes and details needed for each step)
-3. 
+- [ ]  Do the course to understand RAG pipeline
+- [ ] Adapt the pipeline for our application (note down necessary changes and details needed for each step)
+
 
 
 
