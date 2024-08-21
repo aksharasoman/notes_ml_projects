@@ -5,6 +5,8 @@
 [LangChain: Chat with Your Data - DeepLearning.AI](https://learn.deeplearning.ai/courses/langchain-chat-with-your-data/lesson/1/introduction) 
 - build a RAG pipeline:  provides a nice overview, discusses all the steps 
 	- at the end, builds a GUI for RAG application
+	- Official Documentation: [Components | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/integrations/components/)
+	- 
 
 ### Problem Statement
 Build a chatbot to chat with your publications(pdf documents) - deploy it in ojus’s or my website(?) 
