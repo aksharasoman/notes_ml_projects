@@ -2,6 +2,7 @@
 - Popular packages: LangChain, LlamaIndex
 - For basics of RAG: GenAI (NG) course notes in Goodnotes
 ### Relevant Course
+LangChain Course Overview
 [LangChain: Chat with Your Data - DeepLearning.AI](https://learn.deeplearning.ai/courses/langchain-chat-with-your-data/lesson/1/introduction) 
 - builds a RAG pipeline:  provides a nice overview, discusses all the steps 
 - at the end, builds a GUI for RAG application
