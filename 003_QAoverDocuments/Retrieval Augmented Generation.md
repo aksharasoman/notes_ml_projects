@@ -9,3 +9,4 @@ RAG over documents has two phases.
 Details of each step:
 ![[images/Pasted image 20240820230256.png]]
 
+See coding syntax: [[RAG Pipeline with LangChain]]
