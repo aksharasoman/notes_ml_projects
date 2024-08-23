@@ -1,1 +1,1 @@
-![1000](images/(ML%20Project)%20Question%20Answering%20Over%20Documents%2022Aug24_07-41.excalidraw)
+![1000](images/(ML%20Project)%20Question%20Answering%20Over%20Documents%2022Aug24_07-41.excalidraw)![](images/RAG%20Pipeline%20with%20LangChain%2023Aug24_07-14.excalidraw)
