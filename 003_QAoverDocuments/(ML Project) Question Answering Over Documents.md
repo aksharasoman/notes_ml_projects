@@ -28,9 +28,9 @@ Build a chatbot to chat with your publications(pdf documents) - deploy it in oju
 7. Build GUI (panel based)
 8. Test the chatbot
 
-More detailed steps:
-1. 
-	
+More detailed steps and personal tasks:
+- [ ] Copy the last part of code from chatbot lecture
+
 	
 	
 
