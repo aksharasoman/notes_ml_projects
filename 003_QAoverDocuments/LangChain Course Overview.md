@@ -5,7 +5,7 @@ deeplearning.ai offers 2 courses:
 - Official Documentation of langchain: [Components | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/integrations/components/)
 ### Course Summary:
 [[RAG Pipeline with LangChain]]
-
+[[RAG with Memory - Conversational RAG]]
 
 Another course - LangChain: for developers: gives an overview of all components of langchain package 
 - Introduction course. 

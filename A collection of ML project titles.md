@@ -1,6 +1,6 @@
 
 ## Completed:
-- [/] (ML Project) Question Answering Over Documents
+- [/] [[(ML Project) Question Answering Over Documents]]
 - [x] [[(ML Project) How to build a GAN Model on MNIST Dataset for generating new images of handwritten digits?]] 
 - [x] [[(ML Project) Build your own chatbot]]
 - [ ] Identifying Deep fake images (See [[(ML Project) How to build a GAN Model on MNIST Dataset for generating new images of handwritten digits?]] end part)
