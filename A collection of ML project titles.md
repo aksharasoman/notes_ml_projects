@@ -18,7 +18,8 @@
 	- last read books
 - [ ] Create a chatbot for Ojus's publication page: similar to adobe pdf ai - you can ask questions about his work and AI gives answers based on his publications - similar to ai apps where we can upload pdf and interact with it - here we all upload multiple pdfs (or fine-tune on multiple pdfs)
 
-
+### Problem Statements from [bnomial](https://today.bnomial.com/) 
+- Mariam built a machine learning model that looks at pictures of mechanical components and predicts whether they need maintenance.
 
 ## Websites with ML/DL projects' list
 1. [GitHub - ashishpatel26/ 500 AI Machine learning Deep learning Computer vision NLP Projects with code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file) 
