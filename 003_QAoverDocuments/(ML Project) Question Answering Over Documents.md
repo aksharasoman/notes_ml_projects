@@ -25,15 +25,12 @@ Build a chatbot to chat with your publications(pdf documents) - deploy it in oju
 6. LLM : choose a suitable and free api chatmodel from the [langchain list](https://python.langchain.com/v0.2/docs/integrations/chat/)
 	- Google-api key is free: [langchain-google-genai](https://python.langchain.com/v0.2/api_reference/google_genai/chat_models/langchain_google_genai.chat_models.ChatGoogleGenerativeAI.html) 
 	- [?] Is there any better chatmodel with free api key?:  [best chat models - Google Search](https://www.google.com/search?q=which+are+the+best+chat+models&ie=UTF-8)
-7. Build GUI (panel based)
+	- Include memory (chat history) capability
+7.  Build GUI (panel based)
 8. Test the chatbot
 
 More detailed steps and personal tasks:
 - [ ] Copy the last part of code from chatbot lecture
-
-	
-	
-
 
 
 ### Doubts
