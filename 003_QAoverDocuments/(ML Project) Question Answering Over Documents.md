@@ -7,8 +7,33 @@
 Build a chatbot to chat with your publications(pdf documents) - deploy it in ojus’s or my website(?) 
 
 ### Course of Action 
-- [ ]  Do the course to understand RAG pipeline
-- [ ] Adapt the pipeline for our application (note down necessary changes and details needed for each step)
+- [x]  Do the course to understand [[RAG Pipeline with LangChain|RAG Pipeline]]
+- [ ] Adapt the pipeline for our application (note down necessary changes and details needed for each step): see ''Tasks” section below
+
+### Tasks
+1. Document Loading
+	1. import pdf documents of publications
+2. Text Splitting
+	- [?] How to decide which text splitter is suitable for a RAG application?
+3. Embedding 
+	1. choose an llm based embedding from langchain.embeddings
+	- [?] Can we use OpenAIEmbeddings even if we are using another llm model as chatbot?
+4. Vectorstore - chroma
+5. Retrieval : SelfQueryRetriever 
+	1. Ensure it is choosing correct paper when the paper is specified in the question.
+	- [?] Do i need to use compressionRetriever (with MMR) as well? Does it have capability of understanding the meta data?
+6. LLM : choose a suitable and free api chatmodel from the [langchain list](https://python.langchain.com/v0.2/docs/integrations/chat/)
+	- Google-api key is free: [langchain-google-genai](https://python.langchain.com/v0.2/api_reference/google_genai/chat_models/langchain_google_genai.chat_models.ChatGoogleGenerativeAI.html) 
+	- [?] Is there any better chatmodel with free api key?:  [best chat models - Google Search](https://www.google.com/search?q=which+are+the+best+chat+models&ie=UTF-8)
+7. Build GUI (panel based)
+8. Test the chatbot
+
+More detailed steps:
+1. 
+	
+	
+	
+
 
 
 ### Doubts
