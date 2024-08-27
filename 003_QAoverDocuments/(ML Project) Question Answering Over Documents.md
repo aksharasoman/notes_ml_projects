@@ -12,7 +12,7 @@ Build a chatbot to chat with your publications(pdf documents) - deploy it in oju
 
 ### Tasks
 1. Document Loading
-	1. import pdf documents of publications
+	1. import pdf documents of publications 
 2. Text Splitting
 	- [?] How to decide which text splitter is suitable for a RAG application?
 3. Embedding 
