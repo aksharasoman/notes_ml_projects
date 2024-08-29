@@ -1,6 +1,7 @@
+*From chatgpt:*
 ### Understand the Document Structure:
-	1. Context Type (text, tables, images etc)
-	2. **Structure:** Identify the structural elements like headings, paragraphs, bullet points, and tables. You might want to split text at natural breaks, like paragraphs or sections.
+1. Context Type (text, tables, images etc)
+2. **Structure:** Identify the structural elements like headings, paragraphs, bullet points, and tables. You might want to split text at natural breaks, like paragraphs or sections.
 ### Types of Text Splitters:
 - **By Paragraphs:** If your PDFs are well-structured with clear paragraph breaks, splitting by paragraphs is often effective. This ensures that each chunk maintains a coherent thought or idea.
 - **By Sentences:** For more granular control, splitting by sentences can be useful, especially if the text is dense and each sentence carries significant meaning.
