@@ -14,7 +14,7 @@ Build a chatbot to chat with your publications(pdf documents) - deploy it in oju
 1. Document Loading
 	1. import pdf documents of publications 
 2. Text Splitting
-	- [?] [[How to decide which text splitter is suitable for a RAG application?]]
+	- [?] [[How to decide which text splitter is suitable for a RAG application?]] : i need to do these comparisons in our work to understand better. but let’s keep that research in hold. 
 3. Embedding 
 	1. choose an llm based embedding from langchain.embeddings
 	- [?] Can we use OpenAIEmbeddings even if we are using another llm model as chatbot?
