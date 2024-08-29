@@ -1,3 +1,4 @@
+tl;dr: 
 *From chatgpt:*
 ### Understand the Document Structure:
 1. Context Type (text, tables, images etc)
