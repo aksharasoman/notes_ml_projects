@@ -1,1 +1,4 @@
 - to manage user-modifiable parameters and attributes in your code.
+- It simplifies the process by automatically checking for errors, which reduces the amount of repetitive code you need to write.
+	- Param takes care of tasks like data type checking, validating the values, generating documentation, and handling data serialization automatically.
+	- you just need to define facts about your parameters up front
