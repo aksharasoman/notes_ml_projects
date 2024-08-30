@@ -38,6 +38,7 @@ More detailed steps and personal tasks:
 	- [ ] Use another llm chain: # create a chatbot chain. 
 	qa = ConversationalRetrievalChain.from_llm(….)
 - [ ] understand cbfs class- using code-explainer chatgpt
+	- [ ] change _init_ laoded pdf file 
 - [ ] understand chatbot creation code 
 
 ### Main Python Libraries Used:
