@@ -32,7 +32,14 @@ Build a chatbot to chat with your publications(pdf documents) - deploy it in oju
 6. Test the chatbot
 
 More detailed steps and personal tasks:
-- [ ] Copy the last part of code from chatbot lecture
+- [x] Copy the last part of code from chatbot lecture
+- [ ] load_db()
+	- [ ] embeddings = OpenAIEmbeddings() Can we use this with gemini llm
+	- [ ] Use another llm chain: # create a chatbot chain. 
+	qa = ConversationalRetrievalChain.from_llm(….)
+- [ ] understand cbfs class- using code-explainer chatgpt
+- [ ] understand chatbot creation code 
+
 
 
 ### Doubts
