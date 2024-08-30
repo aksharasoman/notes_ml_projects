@@ -40,6 +40,8 @@ More detailed steps and personal tasks:
 - [ ] understand cbfs class- using code-explainer chatgpt
 - [ ] understand chatbot creation code 
 
+### Main Python Libraries Used:
+Langchain, Panel and [[Param Library]]
 
 
 ### Doubts
