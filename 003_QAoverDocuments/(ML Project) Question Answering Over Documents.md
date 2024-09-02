@@ -69,7 +69,10 @@ Langchain, Panel and [[Param Library]]
 - Integrating Conversational History into the RAG Pipeline
 - Enhancing RAG Pipeline with Conversational History
 
-
+### Challenges
+1. Which chatmodel (LLM)
+2. Which [embedding](https://python.langchain.com/v0.2/docs/how_to/embed_text/)
+	1. OpenAIEmbeddings requires open-api-key which is paid. So opting for huggingface embeddings
 ### Component Analysis / Follow-up Experiments
 - [ ] Compare the performance of chroma vs DocArrayInMemorySearch vector db (wrt speed, ?)
 - [ ] 
