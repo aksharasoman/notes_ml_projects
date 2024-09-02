@@ -20,7 +20,8 @@ Build a chatbot to chat with your publications(pdf documents) - deploy it in oju
 	1. choose an llm based embedding from langchain.embeddings
 	- [?] Can we use OpenAIEmbeddings even if we are using another llm model as chatbot?
 2. Vectorstore - chroma
-	1. Used DocArrayInMemorySearch instead: not saving the vectordb for future use
+	1. Used DocArrayInMemorySearch instead: not saving the vectordb for future use 
+		1. faster than Chroma 
 3. Retrieval : SelfQueryRetriever 
 	1. Ensure it is choosing correct paper when the paper is specified in the question.
 	- [?] Do i need to use compressionRetriever (with MMR) as well? Does it have capability of understanding the meta data?
