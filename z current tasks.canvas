@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"d24c8d12a1b25a0a","type":"text","text":"**PLAN FOR THIS WEEK: SEP 1 **\n1. Project- chat with pdf - implementation 🧠\n2. shortlist jobs in linkedin (list required skills - create db note 🪛\n3. Create account in indeed 🪛\n4. Apply to 1 or 2 jobs from the shortlisted ones 🪛\n","x":-1040,"y":-800,"width":320,"height":267},
-		{"id":"e4b9ab06b62441e8","type":"text","text":"**Project** Current: chat with pdf files\n- quickly skim through the given code\n\t- write down questions or experiment suggestions in obs note.\n- load our pdf files & gemini llm api\n- test the setup\n- improve GUI if needed\n- run ablation expts: report (as table or something)\n- blog post (follow SOP)","x":-860,"y":-500,"width":420,"height":320,"color":"2"}
+		{"id":"e4b9ab06b62441e8","type":"text","text":"**Project** Current: chat with pdf files\n- quickly skim through the given code\n\t- write down questions or experiment suggestions in obs note.\n- load our pdf files \n- gemini llm api ✅\n- change ‘ConversationalRetrievalChain’ → create_retrieval_chain \n\t- understand syntax changes (write down in pr & see)\n- test the setup\n- improve GUI if needed\n- run ablation expts: report (as table or something)\n- blog post (follow SOP)","x":-860,"y":-500,"width":420,"height":320,"color":"2"}
 	],
 	"edges":[]
 }
