@@ -3,6 +3,10 @@
 - For basics of RAG: GenAI (NG) course notes in Goodnotes
 ### Relevant Course
 [[LangChain Course Overview]]
+Tutorial: [Conversational RAG](https://python.langchain.com/v0.2/docs/tutorials/qa_chat_history/),
+[Build a PDF ingestion and Question/Answering system | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/tutorials/pdf_qa/)
+
+
 ### Problem Statement
 Build a chatbot to chat with your publications(pdf documents) - deploy it in ojus’s or my website(?) 
 
