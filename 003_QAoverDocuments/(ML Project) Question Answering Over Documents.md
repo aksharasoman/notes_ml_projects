@@ -6,7 +6,6 @@
 Tutorial: [Conversational RAG](https://python.langchain.com/v0.2/docs/tutorials/qa_chat_history/),
 [Build a PDF ingestion and Question/Answering system | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/tutorials/pdf_qa/)
 
-
 ### Problem Statement
 Build a chatbot to chat with your publications(pdf documents) - deploy it in ojus’s or my website(?) 
 
@@ -61,3 +60,8 @@ Langchain, Panel and [[Param Library]]
 - RAG with memory
 - Integrating Conversational History into the RAG Pipeline
 - Enhancing RAG Pipeline with Conversational History
+
+
+### Related Resources
+- [Migrate from Gemini on Google AI to Vertex AI ](https://cloud.google.com/vertex-ai/generative-ai/docs/migrate/migrate-google-ai) Comparison of Google AI vs Vertex AI
+- 
