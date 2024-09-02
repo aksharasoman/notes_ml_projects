@@ -52,6 +52,7 @@ More detailed steps and personal tasks:
 > by[Google | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/integrations/platforms/google/)
 
 - Comparison of Google AI vs Vertex AI: [Gemini on Google AI vs Vertex AI ](https://cloud.google.com/vertex-ai/generative-ai/docs/migrate/migrate-google-ai) 
+- 
 ### Main Python Libraries Used:
 Langchain, Panel and [[Param Library]]
 
@@ -69,4 +70,6 @@ Langchain, Panel and [[Param Library]]
 - Enhancing RAG Pipeline with Conversational History
 
 
-### Related Resources
+### Component Analysis / Follow-up Experiments
+- [ ] Compare the performance of chroma vs DocArrayInMemorySearch vector db (wrt speed, ?)
+- [ ] 
