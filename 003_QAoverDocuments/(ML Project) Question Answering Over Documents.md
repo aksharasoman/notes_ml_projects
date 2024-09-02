@@ -3,8 +3,9 @@
 - For basics of RAG: GenAI (NG) course notes in Goodnotes
 ### Relevant Course
 [[LangChain Course Overview]]
-Tutorial: [Conversational RAG](https://python.langchain.com/v0.2/docs/tutorials/qa_chat_history/),
-[Build a PDF ingestion and Question/Answering system | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/tutorials/pdf_qa/)
+Tutorials:
+- [Conversational RAG](https://python.langchain.com/v0.2/docs/tutorials/qa_chat_history/),
+- [Build a PDF ingestion and Question/Answering system | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/tutorials/pdf_qa/)
 
 ### Problem Statement
 Build a chatbot to chat with your publications(pdf documents) - deploy it in ojus’s or my website(?) 
@@ -19,7 +20,7 @@ Build a chatbot to chat with your publications(pdf documents) - deploy it in oju
 2. Text Splitting
 	- [?] [[How to decide which text splitter is suitable for a RAG application?]] : i need to do these comparisons in our work to understand better. but let’s keep that research in hold. 
 	- [[RecursiveCharacterTextSplitter]]
-1. Embedding 
+3. Embedding 
 	1. choose an llm based embedding from langchain.embeddings
 	- [?] Can we use OpenAIEmbeddings even if we are using another llm model as chatbot?
 2. Vectorstore - chroma
@@ -45,6 +46,12 @@ More detailed steps and personal tasks:
 	- [ ] change _init_ laoded pdf file 
 - [ ] understand chatbot creation code 
 
+### Choosing LLM Chatmodel
+- Choosing Google model since I have used it in my previous project and its api has free-tier.
+> We recommend individual developers to start with Gemini API (`langchain-google-genai`) and move to Vertex AI (`langchain-google-vertexai`) when they need access to commercial support and higher rate limits. 
+> by[Google | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/integrations/platforms/google/)
+
+- Comparison of Google AI vs Vertex AI: [Gemini on Google AI vs Vertex AI ](https://cloud.google.com/vertex-ai/generative-ai/docs/migrate/migrate-google-ai) 
 ### Main Python Libraries Used:
 Langchain, Panel and [[Param Library]]
 
@@ -63,5 +70,3 @@ Langchain, Panel and [[Param Library]]
 
 
 ### Related Resources
-- [Migrate from Gemini on Google AI to Vertex AI ](https://cloud.google.com/vertex-ai/generative-ai/docs/migrate/migrate-google-ai) Comparison of Google AI vs Vertex AI
-- 
