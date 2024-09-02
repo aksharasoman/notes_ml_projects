@@ -73,6 +73,8 @@ Langchain, Panel and [[Param Library]]
 1. Which chatmodel (LLM)
 2. Which [embedding](https://python.langchain.com/v0.2/docs/how_to/embed_text/)
 	1. OpenAIEmbeddings requires open-api-key which is paid. So opting for huggingface embeddings
+3. Retriever: similarity search is returning same splits; hence opting for mmr
 ### Component Analysis / Follow-up Experiments
+run each possible option for each component with single pdf (ng lecture note) & note down observations
 - [ ] Compare the performance of chroma vs DocArrayInMemorySearch vector db (wrt speed, ?)
 - [ ] 
