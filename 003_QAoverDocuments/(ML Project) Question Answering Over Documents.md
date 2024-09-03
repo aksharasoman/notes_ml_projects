@@ -52,7 +52,8 @@ More detailed steps and personal tasks:
 > by[Google | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/integrations/platforms/google/)
 
 - Comparison of Google AI vs Vertex AI: [Gemini on Google AI vs Vertex AI ](https://cloud.google.com/vertex-ai/generative-ai/docs/migrate/migrate-google-ai) 
-- 
+- [?] How about using huggingface llm (since we are using its embeddings): [Hugging Face | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/integrations/platforms/huggingface/)
+
 ### Main Python Libraries Used:
 Langchain, Panel and [[Param Library]]
 
@@ -77,4 +78,5 @@ Langchain, Panel and [[Param Library]]
 ### Component Analysis / Follow-up Experiments
 run each possible option for each component with single pdf (ng lecture note) & note down observations
 - [ ] Compare the performance of chroma vs DocArrayInMemorySearch vector db (wrt speed, ?)
-- [ ] 
+- [ ] LLM: huggingface instead of gemini
+- [ ] [[Comparison of embeddings]]
