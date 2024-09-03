@@ -80,3 +80,4 @@ run each possible option for each component with single pdf (ng lecture note) & 
 - [ ] Compare the performance of chroma vs DocArrayInMemorySearch vector db (wrt speed, ?)
 - [ ] LLM: huggingface instead of gemini
 - [ ] [[Comparison of embeddings]]
+- [ ] 
