@@ -1,0 +1,1 @@
+**Ordinal variables** have a meaningful ordering, while **nominal variables** have **no** meaningful ordering.
