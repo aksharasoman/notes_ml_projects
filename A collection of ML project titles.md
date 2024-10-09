@@ -18,6 +18,8 @@
 	- choose from genres
 	- last read books
 - [ ] Create a chatbot for Ojus's publication page: similar to adobe pdf ai - you can ask questions about his work and AI gives answers based on his publications - similar to ai apps where we can upload pdf and interact with it - here we all upload multiple pdfs (or fine-tune on multiple pdfs)
+- [ ] app that helps users improve their English speaking skills through AI-powered feedback and practice. : continuous audio input (conversation style) & get live or feedback as the user stops audio input (press enter)
+	- eg: [AISpeak:Deepgram](https://deepgram.com/ai-apps/aispeak) - 60-second audio responses to test questions, [SmallTalk2Me](https://smalltalk2.me/) - mock interview practice, vocab boost etc - with 1 to 15mts long audio.
 
 ### Problem Statements from [bnomial](https://today.bnomial.com/) 
 - Mariam built a machine learning model that looks at pictures of mechanical components and predicts whether they need maintenance.
