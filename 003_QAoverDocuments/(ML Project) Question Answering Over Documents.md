@@ -31,7 +31,8 @@ Build a chatbot to chat with your publications(pdf documents) - deploy it in oju
 	1. Used DocArrayInMemorySearch instead: not saving the vectordb for future use 
 		1. faster than Chroma 
 3. Retrieval : SelfQueryRetriever 
-	1. Ensure it is choosing correct paper when the paper is specified in the question.
+	1. Ensure it is choosing correct paper when the paper is specified in the question. 
+	[[003_QAoverDocuments/Different Retrieval Methods|Different Retrieval Methods]]
 	- [?] Do i need to use compressionRetriever (with MMR) as well? Does it have capability of understanding the meta data?
 4. LLM : choose a suitable and free api chatmodel from the [langchain list](https://python.langchain.com/v0.2/docs/integrations/chat/)
 	- Google-api key is free: [langchain-google-genai](https://python.langchain.com/v0.2/api_reference/google_genai/chat_models/langchain_google_genai.chat_models.ChatGoogleGenerativeAI.html) 
