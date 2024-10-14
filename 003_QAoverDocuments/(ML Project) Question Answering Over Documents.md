@@ -9,6 +9,10 @@ Tutorials:
 
 ### Problem Statement
 Build a chatbot to chat with your publications(pdf documents) - deploy it in ojus’s or my website(?) 
+- upload our pdf documents
+- enable the LLM to chat with our documents.
+- GUI for the chat setup 
+	- (provision to upload document) - optional
 
 ### Course of Action 
 - [x]  Do the course to understand [[RAG Pipeline with LangChain|RAG Pipeline]]
@@ -32,7 +36,7 @@ Build a chatbot to chat with your publications(pdf documents) - deploy it in oju
 4. LLM : choose a suitable and free api chatmodel from the [langchain list](https://python.langchain.com/v0.2/docs/integrations/chat/)
 	- Google-api key is free: [langchain-google-genai](https://python.langchain.com/v0.2/api_reference/google_genai/chat_models/langchain_google_genai.chat_models.ChatGoogleGenerativeAI.html) 
 	- [?] Is there any better chatmodel with free api key?:  [best chat models - Google Search](https://www.google.com/search?q=which+are+the+best+chat+models&ie=UTF-8)
-	- Include memory (chat history) capability
+	- Enable memory (chat history) capability
 5.  Build GUI (panel based)
 6. Test the chatbot
 
