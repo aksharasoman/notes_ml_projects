@@ -13,4 +13,4 @@ I recommend the following line-of-action if you are attempting a problem for the
 If you face any issues or have any suggestions, please feel free to open an issue. I will try to get back to you as soon as possible.
 
 ## More questions?
-If you want to contact me, you can reach me **via** [email](mailto:aksharasoman@gmail.com) or visit [my website](https://aksharasoman.github.io).
+If you want to contact me, you can reach me via [email](mailto:aksharasoman@gmail.com) or visit [my website](https://aksharasoman.github.io).
