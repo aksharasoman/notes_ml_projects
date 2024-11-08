@@ -4,6 +4,8 @@ Related Notes:
 [[Dumpyard of Code Snippets]]
 
 ---
+COPIED FROM CHATGPT:
+
 
 Coding patterns are general, reusable solutions to common problems that you might encounter in programming, especially during interviews or software development. 
 
