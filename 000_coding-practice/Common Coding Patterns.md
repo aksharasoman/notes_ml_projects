@@ -1,3 +1,10 @@
+
+Related Notes:
+[[Main Points to Remember - DSA Coding Problems]]
+[[Dumpyard of Code Snippets]]
+
+---
+
 Coding patterns are general, reusable solutions to common problems that you might encounter in programming, especially during interviews or software development. 
 
 1. **Two Pointers**:
