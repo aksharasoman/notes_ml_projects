@@ -1,4 +1,5 @@
 –→ [[Retrieval Augmented Generation]]
+—> [[RAG with Memory - Conversational RAG]]
 - Popular packages: LangChain, LlamaIndex
 - For basics of RAG: GenAI (NG) course notes in Goodnotes
 ### Relevant Course
