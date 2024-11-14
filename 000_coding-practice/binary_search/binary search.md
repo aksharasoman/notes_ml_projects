@@ -18,3 +18,6 @@
 **Analysis:** O(log n) :: draw a traversing tree
 worst case: takes log n comparisons to find an element. 
 best case: O(1) key being the middle element
+
+###### Code Snippet:
+![[images/Pasted image 20241114111620.png]]

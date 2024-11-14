@@ -3,24 +3,45 @@ Related Notes:
 [[Main Points to Remember - DSA Coding Problems]]
 [[Dumpyard of Code Snippets]]
 
+Good References:
+[LeetCode Was Hard Until I Learned THESE 8 Patterns (With Templates!) - YouTube](https://youtu.be/RYT08CaYq6A)
+
 ---
-COPIED FROM CHATGPT:
+COPIED FROM CHATGPT
+- reusable solutions to common problems that you might encounter in programming, especially during interviews or software development. 
 
+- Two types of datastructures 
+	- Linear
+		- Arrays
+		- Linked List
+		- Strings
+	- Non-linear
+		- Trees
+			- a graph with no cycles.
+		- Graphs
 
-Coding patterns are general, reusable solutions to common problems that you might encounter in programming, especially during interviews or software development. 
-
+### Linear Patterns:
 1. **Two Pointers**:
    - Used to traverse data structures like arrays or linked lists with two different pointers moving at different speeds.
+   - Two pointers can move in 
+	   - same direction (used for single-pass data processing: O(n) time instead of O(n2) ) or opposite directions (ideal for finding pairs).
+	   - different speeds (eg: one in x steps while other 2x etc)
    - **Common use-cases**: Finding pairs that meet a condition, removing duplicates, and detecting cycles in a linked list.
 
 2. **Sliding Window**:
-   - Involves creating a window that slides over the data to solve problems related to contiguous subarrays.
+   - Involves creating a window that slides over the data
+   - for dynamically managing a range within a data structure
+   - helps analyze continuous segments 
+   - ideal for substring and subarray problems.
    - **Common use-cases**: Maximum sum subarray, finding substrings, and other problems that require maintaining a dynamic range.
 
 3. **Binary Search**:
-   - A divide-and-conquer approach to search for a target value in a sorted data structure.
+   - to search for a target value in a sorted array.
+   - A divide-and-conquer approach  (O(log n) time)
+   - left, mid and right pointers
    - **Common use-cases**: Searching, finding bounds, and optimized problem-solving with logarithmic complexity.
-
+   - [[binary_search/binary search|binary search code snippet]]
+—
 4. **Dynamic Programming (DP)**:
    - Solving problems by breaking them down into simpler subproblems and storing their results.
    - **Common use-cases**: Optimization problems like the Knapsack problem, Fibonacci sequence, and pathfinding.
