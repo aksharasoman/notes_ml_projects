@@ -20,3 +20,5 @@
 	`pip install sievedata`
 5. Login with your API key
 	 `sieve login`
+	 If you face [[“SSL CERTIFICATE_VERIFY_FAILED” error]]
+6. 

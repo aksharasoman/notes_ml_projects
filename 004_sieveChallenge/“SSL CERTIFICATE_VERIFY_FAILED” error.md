@@ -1,0 +1,3 @@
+The error you're encountering, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (ssl.c:1007), typically occurs when Python requests do not trust the SSL certificate of the server you are trying to communicate with. Here are some steps you can take to resolve this issue:
+
+	**Install Certificates**: If you're on macOS, and using the default Python installation, the issue might be that Python is not using the system's certificate store. You can install the certificates by running the `Install Certificates.command` script found in your Python installation directory (usually `/Applications/Python <version>/`). This script installs the root certificates and should resolve the SSL error.
