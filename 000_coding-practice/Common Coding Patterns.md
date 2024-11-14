@@ -42,34 +42,28 @@ Good References:
    - **Common use-cases**: Searching, finding bounds, and optimized problem-solving with logarithmic complexity.
    - [[binary_search/binary search|binary search code snippet]]
 ### Non-Linear Patterns
-- **[[Graph Traversal]] with BFS**
-	- Level-order traversal
-	- explore a node - explore *all* its immediate neighbours - then its neighbour’s neighbours in next level
-	- Utilizes *Queue* data structure : First In First Out  - to ensure correct order in node visiting.
-	- Code Snippet:
-		![[images/Pasted image 20241114114407.png]]
-* **Depth-First Search (DFS)**
-	* 
-—
-4. **Dynamic Programming (DP)**:
+- **[[Graph Traversal]] with BFS & DFS** 
+- [[000_coding-practice/Backtracking|Backtracking]]
+	- Self-built Dynamic DFS 
+	- recursion
+- Priority Queue
+	- for top-K problems
+	- Most common implementation: [[Heap]]
+	- 
+
+1. **Dynamic Programming (DP)**:
    - Solving problems by breaking them down into simpler subproblems and storing their results.
    - **Common use-cases**: Optimization problems like the Knapsack problem, Fibonacci sequence, and pathfinding.
 
-5. **Backtracking**:
-   - A recursive approach to solve problems by exploring all possible solutions and abandoning a path if it fails to meet the criteria.
-   - **Common use-cases**: Permutations, combinations, puzzles (like Sudoku), and constraint satisfaction problems.
-
-6. **Greedy Algorithm**:
+3. **Greedy Algorithm**:
    - Building up a solution piece by piece, always choosing the next piece that offers the most immediate benefit.
    - **Common use-cases**: Problems involving minimal spanning trees, shortest paths, and scheduling tasks.
 
-
-
-8. **Divide and Conquer**:
+4. **Divide and Conquer**:
    - Breaking a problem into smaller subproblems, solving each independently, and combining the results.
    - **Common use-cases**: Sorting algorithms like merge sort and quicksort, and searching in multidimensional data.
 
-9. **Topological Sorting**:
+5. **Topological Sorting**:
    - Ordering vertices in a directed acyclic graph (DAG) such that for every directed edge, the start comes before the end.
    - **Common use-cases**: Task scheduling, dependency resolution, and project planning.
 
@@ -77,3 +71,5 @@ Good References:
 - **Efficiency**: Knowing these patterns helps you come up with optimized solutions more quickly.
 - **Reusability**: Once you master these patterns, you can adapt them to solve different variations of problems.
 - **Interview Success**: Most technical interview problems are based on these fundamental patterns.
+
+![[images/Screenshot 2024-11-13 at 11.03.44 PM.png]]

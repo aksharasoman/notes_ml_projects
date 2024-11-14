@@ -1,0 +1,12 @@
+- A special type of tree.
+- elements are organized in a specific way
+- Two types:
+	- Min Heap
+		- Smallest value is always at the top (root).
+		- Each parent is smaller than its children
+		- uses to find K-largest values
+	- Max Heap
+		- Largest value is at the root.
+		- Each parent is larger than its children
+		- uses to find K-smallest values.
+![[images/Pasted image 20241114122516.png]]
