@@ -7,7 +7,7 @@ Good References:
 [LeetCode Was Hard Until I Learned THESE 8 Patterns (With Templates!) - YouTube](https://youtu.be/RYT08CaYq6A)
 
 ---
-COPIED FROM CHATGPT
+
 - reusable solutions to common problems that you might encounter in programming, especially during interviews or software development. 
 
 - Two types of datastructures 
@@ -41,6 +41,15 @@ COPIED FROM CHATGPT
    - left, mid and right pointers
    - **Common use-cases**: Searching, finding bounds, and optimized problem-solving with logarithmic complexity.
    - [[binary_search/binary search|binary search code snippet]]
+### Non-Linear Patterns
+- **[[Graph Traversal]] with BFS**
+	- Level-order traversal
+	- explore a node - explore *all* its immediate neighbours - then its neighbour’s neighbours in next level
+	- Utilizes *Queue* data structure : First In First Out  - to ensure correct order in node visiting.
+	- Code Snippet:
+		![[images/Pasted image 20241114114407.png]]
+* **Depth-First Search (DFS)**
+	* 
 —
 4. **Dynamic Programming (DP)**:
    - Solving problems by breaking them down into simpler subproblems and storing their results.
@@ -54,9 +63,7 @@ COPIED FROM CHATGPT
    - Building up a solution piece by piece, always choosing the next piece that offers the most immediate benefit.
    - **Common use-cases**: Problems involving minimal spanning trees, shortest paths, and scheduling tasks.
 
-7. **Graph Traversal (BFS/DFS)**:
-   - Techniques for exploring nodes and edges in a graph systematically.
-   - **Common use-cases**: Finding connected components, shortest paths, and cycles in graphs.
+
 
 8. **Divide and Conquer**:
    - Breaking a problem into smaller subproblems, solving each independently, and combining the results.
