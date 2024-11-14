@@ -3,8 +3,9 @@ Related Notes:
 [[Main Points to Remember - DSA Coding Problems]]
 [[Dumpyard of Code Snippets]]
 
-Good References:
-[LeetCode Was Hard Until I Learned THESE 8 Patterns (With Templates!) - YouTube](https://youtu.be/RYT08CaYq6A)
+**Good References:**
+- [LeetCode Was Hard Until I Learned THESE 8 Patterns (With Templates!) - YouTube](https://youtu.be/RYT08CaYq6A)
+- All code snippets: [https://algo.monster/templates](https://algo.monster/templates)
 
 ---
 
@@ -43,26 +44,21 @@ Good References:
    - [[binary_search/binary search|binary search code snippet]]
 ### Non-Linear Patterns
 - **[[Graph Traversal]] with BFS & DFS** 
-- [[000_coding-practice/Backtracking|Backtracking]]
+- **[[000_coding-practice/Backtracking|Backtracking]]**
 	- Self-built Dynamic DFS 
 	- recursion
-- Priority Queue
+- **Priority Queue**
 	- for top-K problems
 	- Most common implementation: [[Heap]]
-	- 
-
-1. **Dynamic Programming (DP)**:
-   - Solving problems by breaking them down into simpler subproblems and storing their results.
-   - **Common use-cases**: Optimization problems like the Knapsack problem, Fibonacci sequence, and pathfinding.
+- [[Dynamic Programming (DP)]]
+   
 
 3. **Greedy Algorithm**:
    - Building up a solution piece by piece, always choosing the next piece that offers the most immediate benefit.
    - **Common use-cases**: Problems involving minimal spanning trees, shortest paths, and scheduling tasks.
-
 4. **Divide and Conquer**:
    - Breaking a problem into smaller subproblems, solving each independently, and combining the results.
    - **Common use-cases**: Sorting algorithms like merge sort and quicksort, and searching in multidimensional data.
-
 5. **Topological Sorting**:
    - Ordering vertices in a directed acyclic graph (DAG) such that for every directed edge, the start comes before the end.
    - **Common use-cases**: Task scheduling, dependency resolution, and project planning.

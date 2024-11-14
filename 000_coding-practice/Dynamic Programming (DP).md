@@ -1,0 +1,11 @@
+- Solving problems by breaking them down into simpler subproblems and storing their results.
+   - Two ways: 
+	   - top-down 
+		   - start from main problem and recursively solve its subproblems
+		   - storing the results of subproblems to avoid solving same subproblem multiple times (memoization)
+	   - Bottom-Up
+		   - solve smallest subproblems first & use their solution to build up to the solution for the larger problem.
+		   - relies on filling up a table (instead of recursion)
+			   - each entry denotes solution to a smaller sub problem.
+		   - iterative
+   - **Common use-cases**: Optimization problems like the Knapsack problem, Fibonacci sequence, and pathfinding.
