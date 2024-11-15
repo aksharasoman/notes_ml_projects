@@ -11,6 +11,7 @@
 	- [sieve/describe](https://www.sievedata.com/functions/sieve/describe) : Generate audio-visual descriptions of videos with timestamp references. (Spoken Context: This option dictates the usage of the speech in the video to influence the final summary. If set to `False`, the summary will be generated based on only the visuals seen across the video.)
 - converts the summary into conversation speech between two people
 	- as ‘visual-qa’ to “generate summary in conversational style” (prompt)
+- 
 - bonus: [make a talking avatar](https://www.sievedata.com/blog/portrait-avatar-talking-head-video-api-hedra-infinity) or a set of talking avatars speaking that speech
 
 ## Detailed Steps
