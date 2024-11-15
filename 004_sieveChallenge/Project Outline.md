@@ -46,5 +46,6 @@
 	**Solution:**
 	- Use  ‘*sieve/visual-qa*’ to “generate summary as a conversation between 2 people” (prompt) → output in text format (conv_summary_text)
 	- feed each turn of output (conv_summary_text) to *sieve/tts* with either speaker1 or speaker2 voice iteratively → generate audio1, audio2, audio3, .., (Odd number files belong to speaker1 and even numbered files belong to speaker2).
-	- For each Using *sieve/portrait-avatar* repeatedly,
+	- For each audio file, use *sieve/portrait-avatar* generate a video file. Use avatar1 for speaker1’s audio files(odd numbered) and avatar2 for speaker2’s audio files (even numbered). 
+	- Join the generated video files in sequential order to form a single video file using 
 	
