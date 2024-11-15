@@ -16,6 +16,17 @@
 - bonus: [make a talking avatar](https://www.sievedata.com/blog/portrait-avatar-talking-head-video-api-hedra-infinity) or a set of talking avatars speaking that speech
 	- [sieve/portrait-avatar](https://www.sievedata.com/functions/sieve/portrait-avatar)
 
+---
+## Solution - Pipeline
+
+| Step | Task                                                                                                                                                           | Process                                                                            | Remarks                                                                  | Compare                                                       |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| 1    | downloads a YouTube video                                                                                                                                      | [sieve/youtube_to_mp4](https://www.sievedata.com/functions/sieve/youtube_to_mp4)   |                                                                          |                                                               |
+| 2    | summarizes it into a conversational style                                                                                                                      | [sieve/visual-qa](https://www.sievedata.com/functions/sieve/visual-qa)             | Prompt: Generate summary of the video as a conversation between 2 people | 1. flash and pro models<br>2. Prompt without the word “video” |
+| 3    | converts the summary into conversation speech between two people                                                                                               | [sieve/tts](https://www.sievedata.com/functions/sieve/tts)                         |                                                                          |                                                               |
+| 4    | [make a talking avatar](https://www.sievedata.com/blog/portrait-avatar-talking-head-video-api-hedra-infinity) or a set of talking avatars speaking that speech | [sieve/portrait-avatar](https://www.sievedata.com/functions/sieve/portrait-avatar) |                                                                          |                                                               |
+| 5    | Join generated videos                                                                                                                                          | subprocess(ffmpeg(..))                                                             |                                                                          |                                                               |
+
 ## Detailed Steps
 - Sieve [Sign up](https://www.sievedata.com/dashboard) and get your [API key](https://www.sievedata.com/dashboard/settings) (source: [Getting Started](https://docs.sievedata.com/guide/intro#getting-started))
 - Create Project Folder (/Users/aksharas/2.Projects/codes_ml_projects/004_sieveChallenge)
@@ -32,7 +43,10 @@
 
 ## Questions
 - I could not find “sieve/describe” function listed in explore page ([Explore | Sieve](https://www.sievedata.com/explore)). I got to know about it from discord channel. Where do I find such functions listed?
-## Challenge
+
+---
+
+## Challenges
 - Multiple-speaker support!
 	- text to speech : retaining 2 conversational style with 2 people (tts doesnt take 2 people conversations -dialogues) : tts works only for monologues?
 		- For multi-speaker support, you might need to:
@@ -43,9 +57,15 @@
 		- Ensure there is only a single primary speaker in the audio.
 	-  currently *dubbing* is only api seen with multiple speaker support (doubtful)
 		- The `edit_segments` parameter allows you to selectively dub or edit specific portions of the media. useful for adding custom translations for specific segments
-	**Solution:**
+	**Solution:** 
 	- Use  ‘*sieve/visual-qa*’ to “generate summary as a conversation between 2 people” (prompt) → output in text format (conv_summary_text)
 	- feed each turn of output (conv_summary_text) to *sieve/tts* with either speaker1 or speaker2 voice iteratively → generate audio1, audio2, audio3, .., (Odd number files belong to speaker1 and even numbered files belong to speaker2).
 	- For each audio file, use *sieve/portrait-avatar* generate a video file. Use avatar1 for speaker1’s audio files(odd numbered) and avatar2 for speaker2’s audio files (even numbered). 
-	- Join the generated video files in sequential order to form a single video file using 
+	- Join the generated video files in sequential order to form a single video file using ffmpeg; Ref: [[Merge multiple video files using ffmpeg]]
+
+
+
+
+
+	
 	
