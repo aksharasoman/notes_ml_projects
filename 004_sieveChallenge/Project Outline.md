@@ -43,3 +43,8 @@
 		- Ensure there is only a single primary speaker in the audio.
 	-  currently *dubbing* is only api seen with multiple speaker support (doubtful)
 		- The `edit_segments` parameter allows you to selectively dub or edit specific portions of the media. useful for adding custom translations for specific segments
+	**Solution:**
+	- Use  ‘*sieve/visual-qa*’ to “generate summary as a conversation between 2 people” (prompt) → output in text format (conv_summary_text)
+	- feed each turn of output (conv_summary_text) to *sieve/tts* with either speaker1 or speaker2 voice iteratively → generate audio1, audio2, audio3, .., (Odd number files belong to speaker1 and even numbered files belong to speaker2).
+	- For each Using *sieve/portrait-avatar* repeatedly,
+	
