@@ -41,4 +41,5 @@
 		3. Combine the resulting audio files as needed for your application.
 	- sieve/portrait avatar  documentation says
 		- Ensure there is only a single primary speaker in the audio.
-	-  currently dubbing is only api seen with multiple speaker support (doubtful)
+	-  currently *dubbing* is only api seen with multiple speaker support (doubtful)
+		- The `edit_segments` parameter allows you to selectively dub or edit specific portions of the media. useful for adding custom translations for specific segments
