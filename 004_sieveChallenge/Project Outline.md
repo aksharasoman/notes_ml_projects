@@ -7,8 +7,8 @@
 	- [sieve/youtube_to_mp4](https://www.sievedata.com/functions/sieve/youtube_to_mp4)
 - summarizes it into a conversational style
 	- [sieve/visual-qa](https://www.sievedata.com/functions/sieve/visual-qa) (1 use case is Video Summarization)
-	- [sieve/transcript-analysis](https://www.sievedata.com/functions/sieve/transcript-analysis) : Given a video or audio, generate a title, chapters, summary, tags, and highlights.
-	- [sieve/describe](https://www.sievedata.com/functions/sieve/describe) : Generate audio-visual descriptions of videos with timestamp references.
+	- [sieve/transcript-analysis](https://www.sievedata.com/functions/sieve/transcript-analysis) : Given a video or audio, generate a title, chapters, summary, tags, and highlights. (if `generate_summary` is True)
+	- [sieve/describe](https://www.sievedata.com/functions/sieve/describe) : Generate audio-visual descriptions of videos with timestamp references. (Spoken Context: This option dictates the usage of the speech in the video to influence the final summary. If set to `False`, the summary will be generated based on only the visuals seen across the video.)
 - converts the summary into conversation speech between two people
 	- 
 - bonus: [make a talking avatar](https://www.sievedata.com/blog/portrait-avatar-talking-head-video-api-hedra-infinity) or a set of talking avatars speaking that speech
