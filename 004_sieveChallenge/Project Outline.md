@@ -34,3 +34,9 @@
 - I could not find “sieve/describe” function listed in explore page ([Explore | Sieve](https://www.sievedata.com/explore)). I got to know about it from discord channel. Where do I find such functions listed?
 ## Challenge
 - text to speech : retaining 2 conversational style with 2 people (tts doesnt take 2 people conversations -dialogues) : tts works only for monologues?
+	- For multi-speaker support, you might need to:
+	1. Use different reference audio files for each speaker.
+	2. Run the TTS function multiple times with different settings for each speaker.
+	3. Combine the resulting audio files as needed for your application.
+- sieve/portrait avatar  documentation says
+	- Ensure there is only a single primary speaker in the audio.
