@@ -32,3 +32,5 @@
 
 ## Questions
 - I could not find “sieve/describe” function listed in explore page ([Explore | Sieve](https://www.sievedata.com/explore)). I got to know about it from discord channel. Where do I find such functions listed?
+## Challenge
+- text to speech : retaining 2 conversational style with 2 people (tts doesnt take 2 people conversations -dialogues) : tts works only for monologues?
