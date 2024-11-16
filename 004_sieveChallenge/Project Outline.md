@@ -49,6 +49,9 @@ How to Convert a YouTube Video into a Conversational Exchange Between Two Talkin
 
 ## Questions
 - I could not find “sieve/describe” function listed in explore page ([Explore | Sieve](https://www.sievedata.com/explore)). I got to know about it from discord channel. Where do I find such functions listed?
+- What is fps (The framerate to use when processing a video file) in sieve/visual-qa function?
+	- Let's set the `fps` param to be 1 since there aren't instant changes in between the frames.
+	- When i set the input videos frame rate (=30), func threw error. 
 
 ---
 
