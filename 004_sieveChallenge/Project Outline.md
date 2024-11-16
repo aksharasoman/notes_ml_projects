@@ -54,7 +54,10 @@ How to Convert a YouTube Video into a Conversational Exchange Between Two Talkin
 	- When i set the input videos frame rate (=30), func threw error. 
 
 ---
-
+## Extensions Possible?
+- Can I parallelize processing - tts and avatar generation of individual turns ?
+	- ref: [Example: Parallelized Face Detection - Sieve](https://docs.sievedata.com/guide/examples/parallelized-face-detection)
+	- 
 ## Challenges
 - Multiple-speaker support!
 	- text to speech : retaining 2 conversational style with 2 people (tts doesnt take 2 people conversations -dialogues) : tts works only for monologues?
