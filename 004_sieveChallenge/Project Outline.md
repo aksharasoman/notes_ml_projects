@@ -20,7 +20,8 @@
 ---
 ## Solution 
 ### Title
-How to Convert a YouTube Video into a Conversational Exchange Between Two Talking Avatars
+How to Convert a YouTube Video as a Conversation Between Two Talking Avatars?
+Convert a YouTube Video into a Conversational Exchange Between Two Talking Avatars
 ### Pipeline
 
 | Step | Task                                                                                                                                                           | Process                                                                            | Remarks                                                        | Compare                                                       |
