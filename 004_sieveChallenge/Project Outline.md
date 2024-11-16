@@ -58,7 +58,8 @@ Convert a YouTube Video into a Conversational Exchange Between Two Talking Avata
 ## Extensions Possible?
 - Can I parallelize processing - tts and avatar generation of individual turns ?
 	- ref: [Example: Parallelized Face Detection - Sieve](https://docs.sievedata.com/guide/examples/parallelized-face-detection)
-	- 
+- chatTTS
+- conversational talking-listening heads: check challenge
 ## Challenges
 - Multiple-speaker support!
 	- text to speech : retaining 2 conversational style with 2 people (tts doesnt take 2 people conversations -dialogues) : tts works only for monologues?
