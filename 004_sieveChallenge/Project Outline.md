@@ -62,6 +62,11 @@
 	- feed each turn of output (conv_summary_text) to *sieve/tts* with either speaker1 or speaker2 voice iteratively → generate audio1, audio2, audio3, .., (Odd number files belong to speaker1 and even numbered files belong to speaker2).
 	- For each audio file, use *sieve/portrait-avatar* generate a video file. Use avatar1 for speaker1’s audio files(odd numbered) and avatar2 for speaker2’s audio files (even numbered). 
 	- Join the generated video files in sequential order to form a single video file using ffmpeg; Ref: [[Merge multiple video files using ffmpeg]]
+- Video and audio asynchronous while merging videos 
+	- Issue: different frames of input videos
+	- To verify if all input videos have the same codec, resolution, and frame rate,
+	ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height,r_frame_rate -of csv=p=0 input_video.mp4
+
 
 
 
