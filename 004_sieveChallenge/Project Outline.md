@@ -1,3 +1,4 @@
+##### Provided Content:
 ## Deliverables
 1. Code repository with the demo (Build function on Sieve)
 2. A Google Doc of a blog post (*A tutorial post*- break down how you did it and why it’s useful.)
@@ -17,7 +18,10 @@
 	- [sieve/portrait-avatar](https://www.sievedata.com/functions/sieve/portrait-avatar)
 
 ---
-## Solution - Pipeline
+## Solution 
+### Title
+How to Convert a YouTube Video into a Conversational Exchange Between Two Talking Avatars
+### Pipeline
 
 | Step | Task                                                                                                                                                           | Process                                                                            | Remarks                                                        | Compare                                                       |
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -27,6 +31,8 @@
 | 4    | [make a talking avatar](https://www.sievedata.com/blog/portrait-avatar-talking-head-video-api-hedra-infinity) or a set of talking avatars speaking that speech | [sieve/portrait-avatar](https://www.sievedata.com/functions/sieve/portrait-avatar) |                                                                |                                                               |
 | 5    | Join generated videos                                                                                                                                          | subprocess(ffmpeg(..))                                                             |                                                                |                                                               |
 
+---
+##### Content in Progress:
 ## Detailed Steps
 - Sieve [Sign up](https://www.sievedata.com/dashboard) and get your [API key](https://www.sievedata.com/dashboard/settings) (source: [Getting Started](https://docs.sievedata.com/guide/intro#getting-started))
 - Create Project Folder (/Users/aksharas/2.Projects/codes_ml_projects/004_sieveChallenge)
