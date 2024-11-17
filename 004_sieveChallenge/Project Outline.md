@@ -30,7 +30,7 @@ Convert a YouTube Video into a Conversational Exchange Between Two Talking Avata
 | 2    | summarizes it into a conversational style                                                                                                                      | [sieve/visual-qa](https://www.sievedata.com/functions/sieve/visual-qa)             | Prompt: Summarize the video as a conversation between 2 people | 1. flash and pro models<br>2. Prompt without the word “video” |
 | 3    | converts the summary into conversation speech between two people                                                                                               | [sieve/tts](https://www.sievedata.com/functions/sieve/tts)                         |                                                                |                                                               |
 | 4    | [make a talking avatar](https://www.sievedata.com/blog/portrait-avatar-talking-head-video-api-hedra-infinity) or a set of talking avatars speaking that speech | [sieve/portrait-avatar](https://www.sievedata.com/functions/sieve/portrait-avatar) |                                                                |                                                               |
-| 5    | Join generated videos                                                                                                                                          | subprocess(ffmpeg(..))                                                             |                                                                |                                                               |
+| 5    | Join generated videos                                                                                                                                          | ffmpeg concat                                                                      |                                                                |                                                               |
 
 ---
 ##### Content in Progress:
@@ -58,6 +58,7 @@ Convert a YouTube Video into a Conversational Exchange Between Two Talking Avata
 ## Extensions Possible?
 - Can I parallelize processing - tts and avatar generation of individual turns ?
 	- ref: [Example: Parallelized Face Detection - Sieve](https://docs.sievedata.com/guide/examples/parallelized-face-detection)
+	- NOT SURE if push inside a sieve function works - not sure how to make code to wait for all parallel processing results to arrive.
 - chatTTS
 - conversational talking-listening heads: check challenge
 ## Challenges
