@@ -62,6 +62,7 @@ Convert a YouTube Video into a Conversational Exchange Between Two Talking Avata
 	- NOT SURE if push inside a sieve function works - not sure how to make code to wait for all parallel processing results to arrive.
 - chatTTS
 - conversational talking-listening heads: check challenge
+- Can we do it for yt video in other languages ? : if video-qa can generate summary
 ## Challenges
 - Multiple-speaker support!
 	- text to speech : retaining 2 conversational style with 2 people (tts doesnt take 2 people conversations -dialogues) : tts works only for monologues?
