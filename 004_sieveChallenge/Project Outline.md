@@ -53,6 +53,7 @@ Convert a YouTube Video into a Conversational Exchange Between Two Talking Avata
 - What is fps (The framerate to use when processing a video file) in sieve/visual-qa function?
 	- Let's set the `fps` param to be 1 since there aren't instant changes in between the frames.
 	- When i set the input videos frame rate (=30), func threw error. 
+- can we give optional values to functions while deploying. (threw error in normal setting)
 
 ---
 ## Extensions Possible?
