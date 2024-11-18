@@ -57,12 +57,13 @@ Convert a YouTube Video into a Conversational Exchange Between Two Talking Avata
 
 ---
 ## Extensions Possible?
-- Can I parallelize processing - tts and avatar generation of individual turns ?
-	- ref: [Example: Parallelized Face Detection - Sieve](https://docs.sievedata.com/guide/examples/parallelized-face-detection)
-	- NOT SURE if push inside a sieve function works - not sure how to make code to wait for all parallel processing results to arrive.
-- chatTTS
-- conversational talking-listening heads: check challenge
-- Can we do it for yt video in other languages ? : if video-qa can generate summary
+- [x] Can I parallelize processing - tts and avatar generation of individual turns ?
+	- [x] ref: [Example: Parallelized Face Detection - Sieve](https://docs.sievedata.com/guide/examples/parallelized-face-detection) : Done using python’s 
+- [ ] chatTTS
+- [ ] conversational talking-listening heads: check challenge
+- [ ] Can we do it for yt video in other languages ? : if video-qa can generate summary
+- [ ] Dynamic Emotion Mapping: Incorporate sentiment analysis to detect emotions in the summarized text and adjust the tone, facial expressions, and gestures of the avatars accordingly. 
+	- [ ] Check how avatar generation is done in sieve/portrait-avatar (does it have this capability to an extent)
 ## Challenges
 - Multiple-speaker support!
 	- text to speech : retaining 2 conversational style with 2 people (tts doesnt take 2 people conversations -dialogues) : tts works only for monologues?
