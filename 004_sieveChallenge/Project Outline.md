@@ -10,7 +10,7 @@
 	- [sieve/visual-qa](https://www.sievedata.com/functions/sieve/visual-qa) (1 use case is Video Summarization)
 		- as ‘visual-qa’ to “generate summary in conversational style” (prompt)
 	- *Other Summary Generation Options (not using)*
-		- [sieve/transcript-analysis](https://www.sievedata.com/functions/sieve/transcript-analysis) : Given a video or audio, generate a title, chapters, summary, tags, and highlights. (if `generate_summary` is True)
+		- [sieve/transcript-analysis](https://www.sievedata.com/functions/sieve/transcript-analysis) : Given a video or audio, generate a title, chapters, summary, tags, and highlights. (if `generate_summary` is True) - can’t give personalized prompt
 		- [sieve/describe](https://www.sievedata.com/functions/sieve/describe) : Generate audio-visual descriptions of videos with timestamp references. (Spoken Context: This option dictates the usage of the speech in the video to influence the final summary. If set to `False`, the summary will be generated based on only the visuals seen across the video.)
 - converts the summary into conversation speech between two people (text to speech)
 	- [sieve/tts](https://www.sievedata.com/functions/sieve/tts)
