@@ -63,7 +63,8 @@ Convert a YouTube Video into a Conversational Exchange Between Two Talking Avata
 - [ ] conversational talking-listening heads: check challenge
 - [ ] Can we do it for yt video in other languages ? : if video-qa can generate summary
 - [ ] Dynamic Emotion Mapping: Incorporate sentiment analysis to detect emotions in the summarized text and adjust the tone, facial expressions, and gestures of the avatars accordingly. 
-	- [ ] Check how avatar generation is done in sieve/portrait-avatar (does it have this capability to an extent)
+	- [x] Check how avatar generation is done in sieve/portrait-avatar: have this capability to an extent 
+	- [ ] can ask visual-qa to output sentiment of the video & use that to drive tts (for audio generation)
 ## Challenges
 - Multiple-speaker support!
 	- text to speech : retaining 2 conversational style with 2 people (tts doesnt take 2 people conversations -dialogues) : tts works only for monologues?
